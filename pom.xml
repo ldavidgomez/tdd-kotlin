@@ -29,7 +29,8 @@
     </dependencies>
 
     <build>
-        <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+        <sourceDirectory>${project.basedir}/src/main</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/src/test</testSourceDirectory>
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
