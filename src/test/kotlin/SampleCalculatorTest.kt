@@ -1,4 +1,3 @@
-import io.kotlintest.matchers.shouldThrow
 import io.kotlintest.mock.`when`
 import io.kotlintest.specs.BehaviorSpec
 import org.mockito.Mockito
